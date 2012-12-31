@@ -7,13 +7,13 @@ gem 'bootstrap-sass', '2.1'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 #gem 'activerecord-jdbcsqlite3-adapter'
-gem 'sqlite3'
+#gem 'sqlite3'
 
 #gem 'jruby-openssl'
 #gem 'json'
 
 group :development, :test do
-#  gem 'sqlite3', '1.3.5'
+  gem 'sqlite3', '1.3.5'
   gem 'rspec-rails','2.11.0'
   gem 'guard-rspec','1.2.1'
 end
